@@ -1,25 +1,35 @@
-# Insert Time
+# InsertTime
 
-## package
+InsertTime is the plugin for vscode which can insert current time at the location of cursor.
+
+## command
+
+* Insert Time
+
+> insert current time, the time format is `yy-MM-dd HH:mm:ss`
+
+## How to package
 
 ```sh
 npm install -g vsce
 vsce package
 ```
 
-## FAQ
 
-1. Error1
+## Error and Solution
 
-> Error: Make sure to edit the README.md file before you publish your extension.  
-> solution: modify README.md  
 
-2. Error2
+* Error: Make sure to edit the README.md file before you publish your extension.  
 
-> Publish error : ERROR Missing publisher name.  
-> solution: modify `package.json` , add `publisher`  
-> eg:  
+  > modify README.md  
 
-```json
-"publisher": "abc"
-```
+
+* Publish error : ERROR Missing publisher name.  
+
+  > solution: modify `package.json` , add `publisher`  
+
+  >  eg:  
+  ```json
+  "publisher": "publisher_name"
+  ```
+

@@ -26,11 +26,8 @@ export function activate(context: vscode.ExtensionContext) {
 					let date = new Date();
 					let dateString = formatDate(date);
 					editBuilder.insert(new vscode.Position(position.line,position.character),dateString);
-
 				}
-
 			);
-			
 		}
 	});
 
